@@ -3,11 +3,11 @@ using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
 
-namespace PlaywrightTests;
+namespace PlaywrightTests.Examples;
 
 [Parallelizable(ParallelScope.Self)]
 [TestFixture]
-public class ExampleTest : PageTest
+public class ExampleTestWithPageTest : PageTest
 {
     [Test]
     public async Task HasTitle()
