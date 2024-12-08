@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <!-- enable playwright inspector -->
+    <RunConfiguration>
+        <EnvironmentVariables>
+            <PWDEBUG>1</PWDEBUG>
+        </EnvironmentVariables>
+    </RunConfiguration>
+</RunSettings> 
